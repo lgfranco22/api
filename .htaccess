@@ -1,0 +1,7 @@
+RewriteEngine On
+
+# Rota amigável para consulta.php
+RewriteRule ^consulta$ consulta.php [L]
+
+# Rota amigável para recv.php
+RewriteRule ^recv$ recv.php [L]
